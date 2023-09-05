@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HakgyoansimGaeulsopungB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'HakgyoansimGaeulsopungB';
+    color : #5a3a10;
+    background-color : #727914;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #231a46;
+    border-radius: 30px;
+    font-size: 50px;
+    box-shadow: 10px 10px 20px #0b2e0e
+}
+
+h2{
+    color : #5a2f12;
+    background-color : #22790c88;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #1f0c44;
+    border-radius: 100px;
+}
+
+h2::first-letter {
+    font-size:30px;
+    background-color: #0d9423;
+    color: #360988;
+    border-radius:10px;
+    border-style: solid;
+    border: width 5px;
+    border-color:#194647
+}
+
+h2:hover{
+    background-color: #107510;
+    color: #d8db0c
+}
+
+h2:hover::first-letter{
+    border-color: #701f1f;
+    background-color: #2793a1;
+    color:#04192b
+}
+
+p{
+    text-indent:10px;
+    line-height:200%;
+    font-family : 'ChosunGu';
+
+}
